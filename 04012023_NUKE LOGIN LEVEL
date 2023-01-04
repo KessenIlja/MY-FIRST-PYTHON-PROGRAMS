@@ -1,0 +1,35 @@
+print("NUKE LOGIN LEVEL")
+print("_________________")
+print()
+
+print(" what is youre name")
+name = input("put  youre name here: ")
+print("thank you")
+print()
+print("now put youre password")
+password = input("youre password is")
+print()
+print()
+print("Your Name is :" ,name,)
+print()
+print("Your password is:" ,password,)
+print()
+print()
+print(" would you like to test a nuke on the ocean")
+
+reply = input("yes OR no?")
+
+if reply == "yes":
+ print()
+ print()
+ print("BOOOM")
+ 
+elif reply == "no":
+ print()
+ print()
+ print("okay")
+ 
+else:
+ print()
+ print()
+ print("SYSTEM FAILURE ABORT MISSION!!!!!")
